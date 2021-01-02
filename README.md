@@ -132,7 +132,7 @@ By refactoring the code it is hoped we can speed up the processing time so that 
 
     Next i`
 
-Figure 2. - Refactored code removing the nested loop and instead using an index across four different arrarys
+Figure. 2 - Refactored code removing the nested loop and instead using an index across four different arrarys
 
 In the refactored macro, the single loop uses the tickerIndex variable to reference the ticker arrays for tickerVolumes(12), tickerStartingPrices(12), and tickerEndingPrices(12) - meaning that the tickerIndex is collecting all the information with each new ticker, rather than going through a separate loop to collect information for each ticker every time.
 
@@ -141,9 +141,11 @@ In the refactored macro, the single loop uses the tickerIndex variable to refere
 Run time for the refactored code is indeed better for both 2017 and 2018 with around **0.1** and **0.09** seconds respectively (compared to **+/- 0.5** seconds each using the previous code):
 
 ![Results for 2017](https://github.com/jkenning/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
 Figure. 3 - Performance and run time result for stocks in 2017
 
 ![Results for 2018](https://github.com/jkenning/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+
 Figure. 4 - Performance and run time result for stocks in 2018
 
 ### Comparison between 2017 and 2018 Stock Performance
