@@ -31,9 +31,6 @@ As a result the stocks data can now be analyzed easily using a button and inputs
 ### Original Code
 
 The original code using to analyze all stocks in 2017 and 2018 initializes an array for all the stock tickers then looping through the tickers, with a nested loop to run through the data for each ticker. When running analysis of performance of all stocks in 2017 and 2018 using the original macro, the code ran in **0.5** and **0.51** seconds respectively. 
-
-'find the no of rows to loop over
-    rowEnd = Cells(Rows.Count, "A").End(xlUp).Row
     
     'loop through the tickers
      For i = 0 To 11
