@@ -132,7 +132,7 @@ By refactoring the code it is hoped we can speed up the processing time so that 
 
     Next i`
 
-    Figure 2. - Refactored code removing the nested loop and instead using an index across four different arrarys
+Figure 2. - Refactored code removing the nested loop and instead using an index across four different arrarys
 
 In the refactored macro, the single loop uses the tickerIndex variable to reference the ticker arrays for tickerVolumes(12), tickerStartingPrices(12), and tickerEndingPrices(12) - meaning that the tickerIndex is collecting all the information with each new ticker, rather than going through a separate loop to collect information for each ticker every time.
 
