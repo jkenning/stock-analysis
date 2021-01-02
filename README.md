@@ -8,7 +8,7 @@ The scenario for this project is the help a financial advisor named Steve, who w
 
 ### Purpose
 
-From the analysis, Steve will be able to analyze the perfromance of a specific stock "DAQO" already owned by his clients and the additional investment options by calculating the annualized rate of return. He will be able to run the script to automate his year-on-year analysis of multiple stocks and then re-use it for any stocks in the future. Automating the process will also help reduce the chances of any errors in the repeated analyses.
+From the analysis, Steve will be able to analyze the perfromance of a specific stock "DAQO" - already owned by his clients, and the additional investment options by calculating the annualized rate of return. He will be able to run the script to automate his year-on-year analysis of multiple stocks and then re-use it for any stocks in the future. Automating the process will also help reduce the chances of any errors in the repeated analyses.
 
 ## Analysis
 
