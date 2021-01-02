@@ -12,7 +12,7 @@ From the analysis, Steve will be able to analyze the perfromance of a specific s
 
 ## Analysis
 
-The data and VBA analysis performed for this project can be found in [Stock-analysis.xlsm](https://github.com/jkenning/stock-analysis/blob/main/VBA_Challenge..xlsm). Below is a short summary of the initial analyses performed:
+The data and VBA analysis performed for this project can be found in [VBA_Challenge](https://github.com/jkenning/stock-analysis/blob/main/VBA_Challenge..xlsm). Below is a short summary of the initial analyses performed:
 
 1. Performed an analysis of the "DAQO" stock in 2018 using loops to calculate daily volume and yearly return
 
