@@ -1,6 +1,6 @@
 # Stock Analysis
 
-Analysis of a dozen alternative energy stocks to determine the best investment options, and designed to allow for analysis of larger data sets
+Analysis of a dozen alternative energy stocks to determine the best investment options, designed to allow for analysis of larger data sets.
 
 ## Overview of Project
 
